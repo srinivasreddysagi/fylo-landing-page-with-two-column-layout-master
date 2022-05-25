@@ -1,0 +1,231 @@
+@media (min-width: 1200px) {
+    body {
+        font-family: var(--font-open-sans);
+        background-image: url(../images/bg-curve-desktop.svg);
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+
+    .topbar {
+        height: 11rem;
+        padding: 0rem 5rem;
+    }
+
+    .topbar__logo {
+        height: 3rem;
+    }
+
+    .topbar__tabs {
+        width: 22%;
+        max-width: 200rem;
+    }
+
+    main {
+        padding: 0rem 5rem 4rem 5rem;
+    }
+
+    .illustration-1 {
+        grid-area: i1;
+        width: 44vw;
+    }
+
+    .illustration-2 {
+        grid-area: i2;
+        width: 40vw;
+    }
+
+    .convey {
+        grid-area: chp;
+        display: flex;
+        text-align: left;
+        width: 44vw;
+        justify-content: center;
+    }
+
+    .convey__h {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+    .convey__p {
+        font-size: 1.2rem;
+        line-height: 1.5rem;
+        width: 95%;
+    }
+
+    .convey__email {
+        display: flex;
+        flex-direction: row;
+        gap: 1rem;
+        align-self: auto;
+    }
+
+    .convey__email-email {
+        width: 20rem;
+    }
+
+    .btn {
+    }
+
+    .convey__email-getstarted {
+        width: 20rem;
+    }
+
+    .motivate {
+        grid-area: mhp;
+        display: flex;
+        text-align: left;
+        width: 48vw;
+        justify-content: center;
+        justify-items: left;
+    }
+
+    .motivate__h {
+        font-size: 2.5rem;
+        line-height: 3.5rem;
+    }
+
+    .motivate__p {
+        font-size: 1rem;
+        line-height: 1.5rem;
+        width: 75%;
+    }
+
+    .motivate-show {
+        display: flex;
+        margin: 1rem 0rem;
+    }
+
+    .motivate__testimonial {
+        margin: 0;
+        width: 21rem;
+        height: auto;
+        font-size: 0.8rem;
+    }
+
+    .motivate__testimonial img {
+    }
+
+    .motivate__testimonial-cite {
+    }
+
+    .motivate__testimonial-cite img {
+    }
+
+    .motivate__testimonial-cite div {
+    }
+
+    .motivate__testimonial-cite-bold {
+        font-weight: 700;
+    }
+
+    .motivate__testimonial-cite-p {
+        font-size: 0.6rem;
+    }
+
+    .packer {
+        display: grid;
+        grid-template-areas:
+            "chp i1"
+            "mhp i2";
+        /* justify-content: space-around; */
+        place-items: center;
+        row-gap: 12rem;
+    }
+
+    .force__h {
+        font-size: 2rem;
+        grid-area: fh;
+        width: 50vw;
+    }
+
+    .force__p {
+        grid-area: fp;
+        width: 35vw;
+    }
+
+    .force__email {
+        grid-area: fe;
+    }
+
+    .force__email-email {
+        width: 33vw;
+        height: 3rem;
+    }
+
+    .force__email-button {
+        width: 14vw;
+        height: 3rem;
+    }
+
+    .force {
+        text-align: left;
+        padding: 5rem;
+        display: grid;
+        grid-template-areas:
+            "fh fe"
+            "fp fe";
+        grid-template-columns: 50vw 30vw;
+    }
+
+    .foot {
+        height: 25rem;
+        padding: 2rem 5rem;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .foot__left {
+        flex-direction: row;
+        width: 40%;
+        justify-content: space-between;
+        gap: 4rem;
+    }
+
+    .foot__left-contact {
+        justify-content: center;
+        gap: 1rem;
+    }
+
+    .foot__left-logo {
+        width: 11rem;
+        object-fit: contain;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .foot__left-phone {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .foot__left-phone img {
+        width: 1rem;
+        object-fit: contain;
+    }
+
+    .foot__left-email {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .foot__left-email img {
+        width: 1rem;
+        object-fit: contain;
+    }
+
+    .foot__left-links {
+        justify-content: flex-end;
+    }
+
+    .foot__right {
+        flex-direction: row;
+        width: 45%;
+        justify-content: space-around;
+    }
+
+    .foot__right-links {
+        justify-content: flex-end;
+        margin-bottom: 3.5rem;
+    }
+}
